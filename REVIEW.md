@@ -8,31 +8,33 @@
 ## Function
 ### AJAX Requests
 - [x] All AJAX requests work properly.
-- [yes] Large images, videos, and other media — anything that would significantly slow down the user's browsing experience — are loaded via AJAX requests.
+- [x] Large images, videos, and other media — anything that would significantly slow down the user's browsing experience — are loaded via AJAX requests.
 
 ### JavaScript Style
-- [yes] Each page has its own JavaScript file that contains JavaScript written specifically for that page.
-- [yes every function it has it's work] All functions have exactly **ONE** responsibility. No functions do more than one thing, like make an AJAX request *and* add the returned data to the DOM.
+- [x] Each page has its own JavaScript file that contains JavaScript written specifically for that page.
+- [x] All functions have exactly **ONE** responsibility. No functions do more than one thing, like make an AJAX request *and* add the returned data to the DOM.
 + **List any functions that have more than a single responsibility**: 
 
 ## Form
 ### Pages
 #### Homepage
-- [yes] Project has a homepage.
-- [yes] Homepage loads well-styled content even when JavaScript is disabled.
-- [yes] Homepage contains links to all other pages.
-- [No, the paragraph it's not clear and he repeated the sentences for two times] Homepage makes the website's purpose clear (who owns the site / what we can expect to find within).
-
+- [x] Project has a homepage.
+- [x] Homepage loads well-styled content even when JavaScript is disabled.
+- [x] Homepage contains links to all other pages.
+- [ ] Homepage makes the website's purpose clear (who owns the site / what we can expect to find within).
+     Note: the paragraph it's not clear and he repeated the sentences for two times
 #### About
-- [yes] Project has an About page.
-- [yes, he talk about his life before Re:Coded, but he used the abbreviation, if he didn;t use it it will be better] Contains one paragraph about the student's life before Re:Coded.
-- [yes ] Contains one paragraph about why the student joined Re:Coded.
-- [yes, but he didn;t write about his dreams ] Contains one paragraph about what the student wants to do after Re:Coded, both short- and long-term.
+- [x] Project has an About page.
+- [x] Contains one paragraph about the student's life before Re:Coded.
+   Note:  he talk about his life before Re:Coded, but he used the abbreviation, if he didn;t use it it will be better
+- [x] Contains one paragraph about why the student joined Re:Coded.
+- [x] Contains one paragraph about what the student wants to do after Re:Coded, both short- and long-term.ote 
+  Note: , but he didn;t write about his dreams 
 
 #### Projects
-- [yes ] Project has a Projects page.
-- [yes ] Projects page contains two navigational buttons or tabs, `Current` and `Favorite`.
-- [yes ] Clicking the `Current` button makes an AJAX request to the GitHub API and displays information about the student's 5 most recent GitHub repositories.
+- [x] Project has a Projects page.
+- [x] Projects page contains two navigational buttons or tabs, `Current` and `Favorite`.
+- [x] Clicking the `Current` button makes an AJAX request to the GitHub API and displays information about the student's 5 most recent GitHub repositories.
 - [yes ] Clicking the `Favorite` button makes an AJAX request and displays a list of GitHub repositories (that the student created or contributed to) that the student is especially proud of.
 
 #### Skills
